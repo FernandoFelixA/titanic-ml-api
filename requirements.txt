@@ -1,9 +1,5 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyterlab
-xgboost
-lightgbm
-flask
+numpy==2.4.2
+pandas==3.0.1
+scikit-learn==1.8.0
+flask==3.1.3
+gunicorn==27.0.1
