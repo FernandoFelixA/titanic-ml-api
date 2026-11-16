@@ -1,10 +1,2 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyterlab
-xgboost
-lightgbm
-flask
+-r requirements.txt
 pytest
