@@ -11,6 +11,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./src/
 COPY artifacts/ ./artifacts/
 
+# Crear y utilizar usuario sin privilegios
+RUN useradd --create-home appuser
+USER appuser
+
 # Puerto de la API
 EXPOSE 5000
 
